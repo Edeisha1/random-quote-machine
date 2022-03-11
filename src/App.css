@@ -1,0 +1,142 @@
+
+
+
+
+.App {
+  text-align: center;
+ 
+}
+
+
+
+
+
+/*.App-header {
+  background-color:hsl(306, 35%, 92%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333;;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+div {
+  position: relative;
+  z-index: 2;
+}
+#wrapper{
+
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   padding: 40px 50px;
+}
+
+body {
+ /* background-color:hsl(306, 35%, 92%);*/
+ min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333;;
+}
+
+#quote-box{
+  
+  position: relative;
+ background-color: white;
+  padding: 40px 50px;
+  margin-top: 250px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  
+}
+#text{
+  text-align: center;
+    width: 450px;
+    height: auto;
+    font-size: 25px;
+   font-family: "Raleway", san-serif;
+  font-weight: bold;
+}
+
+/*#author{
+
+  
+}*/
+.author{
+  text-align: end;
+  font-size: 18px;
+}
+
+.buttons{
+display:flex;
+justify-content: space-between;
+min-height: 35px;
+}
+
+.social{
+  
+  display:flex;
+justify-content: space-between;
+
+ /* display: block;*/
+  
+}
+
+#fb-status{
+  float: left;
+color: white;
+background-color: rgb(51, 51, 235);
+border: none;
+border-radius: 3px;
+padding: 2px 8px 4px 8px;
+/*margin-top: 30px;*/
+}
+#tweet-quote{
+  float: left;
+  color: white;
+  background-color:lightblue; 
+  border: none;
+  border-radius: 3px;
+  padding: 2px 8px 4px 8px;
+  /*margin-top: 30px;*/
+  margin-left:  10px;
+  }
+  #new-quote{
+    float: right;
+    font-weight: bold;
+    font-size: 19px;
+    color:gray;
+    /*padding: 4px 4px 4px 4px;*/
+    text-transform: uppercase;
+    transition: 0.3s;
+    /*margin-bottom: 0px;*/
+  }
+  button:hover{
+    color: hsl(278, 100%, 76%);
+    background-color: white;
+  }
+
+  .footer {
+   
+    display: block;
+    margin-bottom: 500px;
+    text-align: right;
+    font-size: 0.8em;
+    color: #fff;
+    
+    }
+    .footer:a {
+      font-weight: 500;
+      text-decoration: none;
+      color: #fff;
+    
+    }
